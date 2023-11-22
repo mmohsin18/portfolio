@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Mohsin</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Muhammad Mohsin</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo">Muhammad Mohsin</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#home" onclick="togglemenu()">Home</a></li>
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-cont">
+            <img src="./assets/IMG_0928-min.PNG" alt="John Doe">
+        </div>
+        <div class="section__text">
+            <p class="section__textp1">Hello I'm</p>
+            <h1 class="title">Muhammad Mohsin</h1>
+            <p class="section__textp2">Front End Developer</p>
+            <div class="btn-cont">
+                <button class="btn-color1" 
+                    onclick="window.open('./assets/Profile.pdf')">Download CV
+                </button>
+                <button class="btn-color2" 
+                    onclick="location.href='./#contact'">Contact
+                </button>
+            </div>
+            <div id="social-cont">
+                <a href="https://www.linkedin.com/in/mmohsin0804/"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/mmohsin18?tab=repositories"><i class="ri-github-fill"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__textp1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-cont">
+            <div class="section__pic-cont">
+                <img src="assets/IMG_0928-min.PNG" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-detailcont">
+                <div class="about-cont">
+                    <div class="details-cont">
+                        <i class="ri-award-fill"></i>
+                        <h3>Experience</h3>
+                        <p>1 Year <br> Front End Development</p>
+                    </div>
+                    <div class="details-cont">
+                        <i class="ri-book-open-line"></i>
+                        <h3>Education</h3>
+                        <p>HSC <br>Sabujbagh Govt College</p>
+                    </div>
+                </div>
+                <div class="text-cont">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Consequatur nemo similique molestias dolorum aliquam iure 
+                        unde ratione repellendus ipsum doloremque fugiat, non minima 
+                        vitae sed.</p>
+                </div>
+            </div>
+        </div>
+        <i class="ri-arrow-down-double-line" onclick="location.href='./#experience'"></i>
+
+    </section>
+    <section id="experience">
+        <p class="section__textp1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="exp-detailscont">
+            <div class="about-cont">
+                <div class="details-cont">
+                    <h2 class="experience-subtitle">Front End Development</h2>
+                    <div class="article-cont">
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>Material UI</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3 class="wp">Web Builders</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>Framer</h3>
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-cont">
+                    <h2 class="experience-subtitle">Back End Development</h2>
+                    <div class="article-cont">
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>PostgreSQL</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article class="NodeJS">
+                            <i class="ri-verified-badge-fill"></i>
+                        <div class="nodejs-div">
+                            <h3>NodeJS</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>Express Js</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <i class="ri-verified-badge-fill"></i>
+                        <div>
+                            <h3>Git</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="ri-arrow-down-double-line" onclick="location.href='./#projects'"></i>
+    </section>
+    <section id="projects">
+        <p class="section__textp1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="exp-detailscont">
+            <div class="proj-cont">
+                <div class="projdetails-cont color-cont">
+                    <div class="article-cont">
+                        <img src="assets/Project 1.jpg" alt="Project1" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">Project One</h2>
+                    <div class="btn-cont">
+                        <button class="btn-color1 project-btn" 
+                        onclick="location.href='https://github.com/mmohsin18/todoapp'">
+                        Github</button>
+                        <button class="btn-color2 project-btn" 
+                        onclick="location.href='https://mmohsin18.github.io/todoapp'">
+                        Live Demo</button>
+                    </div>
+                </div>
+                <div class="projdetails-cont color-cont">
+                    <div class="article-cont">
+                        <img src="assets/Project 2.png" 
+                        alt="Project2" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">Project Two</h2>
+                    <div class="btn-cont">
+                        <button class="btn-color1 project-btn" 
+                        onclick="location.href='https://github.com/mmohsin18/instagram'">
+                        Github</button>
+                        <button class="btn-color2 project-btn" 
+                        onclick="location.href='https://mmohsin18.github.io/instagram'">
+                        Live Demo</button>
+                    </div>
+                </div>
+                <div class="projdetails-cont color-cont">
+                    <div class="article-cont">
+                        <img src="assets/Project 3.png" alt="Project3" class="project-img">
+                    </div>
+                    <h2 class="experience-subtitle project-title">Project Three</h2>
+                    <div class="btn-cont">
+                        <button class="btn-color1 project-btn" 
+                        onclick="location.href='https://github.com/mmohsin18/portfolio'">
+                        Github</button>
+                        <button class="btn-color2 project-btn" 
+                        onclick="location.href='https://mmohsin18.github.io/portfolio'">
+                        Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="ri-arrow-down-double-line" onclick="location.href='./#contact'"></i>
+    </section>
+    <div class="contact-section">
+        <section id="contact">
+            <p class="section__textp1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contactinfo-upcont">
+                <div class="contactinfo-cont">
+                    <i class="ri-mail-fill contact-icon"></i>
+                    <p><a href="mailto:mmohsin0804@gmail.com">Gmail</a></p>
+                </div>
+                <div class="contactinfo-cont">
+                    <i class="ri-linkedin-box-fill contact-icon"></i>
+                    <p><a href="https://www.linkedin.com/in/mmohsin0804/">linkedin</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-linkscont">
+                    <ul class="nav-links">
+                        <li><a href="#desktop-nav">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p class="copyright">CopyRight &#169; 2023 Muhammad Mohsin  All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
